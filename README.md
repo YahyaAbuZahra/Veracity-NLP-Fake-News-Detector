@@ -1,4 +1,4 @@
-# ⚖️ Veracity NLP: Fake News Detection System
+# Veracity NLP: Fake News Detection System
 
 > **A High-Precision Machine Learning System for Misinformation Analysis.**
 > *Powered by Linear SVM & TF-IDF with 98.8% Accuracy.*
@@ -8,7 +8,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit)
 ![SVM](https://img.shields.io/badge/Algorithm-Linear%20SVM-green?style=for-the-badge)
 
-## 📌 Project Overview
+##  Project Overview
 **Veracity NLP** is an end-to-end machine learning pipeline designed to classify news articles as **Real** or **Fake** with high linguistic precision. Unlike basic classifiers, this system focuses on **stylometric features** (writing style) rather than memorizing sources, ensuring unbiased analysis.
 
 The project features a full **Streamlit Dashboard** for real-time inference and a robust training pipeline that benchmarks multiple algorithms based on academic standards.
@@ -37,7 +37,7 @@ We incorporated tree-based ensemble methods to capture non-linear relationships:
 
 ---
 
-## 📖 Scientific References
+## Scientific References
 The methodology and algorithm selection for this project are informed by the following peer-reviewed sources:
 
 > 1. **Alshuwaier, F. A., & Alsulaiman, F. A. (2024).** *"Fake News Detection Using Machine Learning and Deep Learning Algorithms: A Comprehensive Review and Future Perspectives."* Computers, 14(9), 394.
@@ -45,7 +45,7 @@ The methodology and algorithm selection for this project are informed by the fol
 
 ---
 
-## 📊 Benchmarking Results
+## Benchmarking Results
 After rigorous testing, **Linear SVM** emerged as the champion model, balancing speed and precision:
 
 | Model | Accuracy | F1-Score | Training Time |
@@ -57,7 +57,7 @@ After rigorous testing, **Linear SVM** emerged as the champion model, balancing 
 
 ---
 
-## 🛠️ Installation & Usage
+##  Installation & Usage
 
 1. **Clone the repository:**
    ```bash
@@ -70,5 +70,6 @@ pip install -r requirements.txt
 3.Run the Dashboard:
 streamlit run app.py
 
-Author
-Yahya Abu Zahra Computer Engineering Undergraduate (AI Track)
+Author:
+
+Yahya Abu Zahra - Computer Engineering Undergraduate (AI Track)
